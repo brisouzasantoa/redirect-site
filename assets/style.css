@@ -1,0 +1,41 @@
+/* style.css - redirect-site */
+:root {
+    --primary: #FF9500;
+    --dark: #121212;
+    --text: #F5F5F5;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+.loader {
+    font-size: 2rem;
+    animation: spin 2s linear infinite;
+    margin-top: 30px;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
