@@ -3,24 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+    <title>🏆 Top Platforms to Earn Crypto</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-<h3 style="text-align:center; margin-top:50px;">Redirecting to the best crypto faucet platforms...</h3>
+<div class="container">
+    <header>
+        <h1>🏆 Top Platforms to Earn Crypto</h1>
+        <p>Instant withdrawals • Exclusive bonuses • Community rated</p>
+    </header>
 
+    <!-- Seção Destacada de CPA Offers -->
+    <section class="cpa-highlight">
+        <h2>🔥 Hot CPA Offers Paying Now</h2>
+        <p>Check out the best CPA offers that are currently paying real crypto — handpicked for you.</p>
+        <button class="claim-btn" onclick="window.location.href='https://cpaoffers.seusite.com'">View  CPA Offers →</button>
+    </section>
+
+    <!-- Ad Space -->
+    <div class="ad-space">
+        <p>Ad space (Kadam, Propeller Ads, Adsterra)</p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3><a href="/about.html" class="footer-link">About</a></h3>
+            </div>
+            <div class="footer-section policy">
+                <h3><a href="/privacy-policy.html" class="footer-link">Privacy Policy</a></h3>
+            </div>
+        </div>
+
+        <!-- Cookie Banner -->
+        <div id="cookieConsent" class="cookie-banner">
+            <p>We use cookies to enhance your browsing experience.</p>
+            <button onclick="acceptCookies()">Accept</button>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 Crypto Faucets Guide | All Rights Reserved
+        </div>
+    </footer>
+</div>
+
+<script src="assets/script.js"></script>
 <script>
-    const sites = [
-        "https://en.moneylistpro.xyz", 
-        "https://es.moneylistpro.xyz", 
-        "https://ru.moneylistpro.xyz", 
-        "https://moneylistpro.xyz" 
-    ];
-
-    // Redireciona aleatoriamente
     window.addEventListener('load', () => {
-        const randomIndex = Math.floor(Math.random() * sites.length);
-        window.location.href = sites[randomIndex];
+        rotateNotifications();
+        showWelcomeNotification();
     });
 </script>
 
