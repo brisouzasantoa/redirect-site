@@ -11,5 +11,5 @@ window.addEventListener("load", () => {
     const randomIndex = Math.floor(Math.random() * sites.length);
     setTimeout(() => {
         window.location.href = sites[randomIndex];
-    }, 3000); // Redireciona após 3 segundos
+    }, 10000); // Redireciona após 10 segundos
 });
