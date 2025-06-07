@@ -1,10 +1,10 @@
 // script.js - redirect-site
 
 const sites = [
-    "https://en.seusite.com", 
-    "https://es.seusite.com", 
-    "https://ru.seusite.com", 
-    "https://seusite.com" 
+    "https://en.moneylistpro.xyz", 
+    "https://es.moneylistpro.xyz", 
+    "https://ru.moneylistpro.xyz", 
+    "https://moneylistpro.xyz" 
 ];
 
 window.addEventListener("load", () => {
